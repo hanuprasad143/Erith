@@ -2,13 +2,13 @@
 // import Link from "next/link";
 // import HeroSection from "@/components/slider/Heroslider";
 
-type IProps = {
-  title: string;
-  subtitle: string;
-  admission?: boolean;
-};
+// type IProps = {
+//   title: string;
+//   subtitle: string;
+//   admission?: boolean;
+// };
 
-export default function AboutBanner({  admission }: IProps) {
+export default function AboutBanner() {
   return (
     <>
       <section className="tp-breadcrumb__area pt-160 pb-150 p-relative z-index-1 fix">
@@ -26,7 +26,7 @@ export default function AboutBanner({  admission }: IProps) {
                     <HomeSvg/>
                   </Link>
                 </span> */}
-                  {admission && <span className="white">Admission</span>}
+                  {/* {admission && <span className="white">Admission</span>} */}
                   <h5 className="tp-breadcrumb__title color">
                     About us
                     <br />
