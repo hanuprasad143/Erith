@@ -1,5 +1,5 @@
 import Image from 'next/image';
-// import { RightArrow, ShapeLine } from '../svg';
+import { ShapeLine } from '../svg';
 
 // images
 import thumb_1 from '@/assets/img/about/about-thumb1.png';

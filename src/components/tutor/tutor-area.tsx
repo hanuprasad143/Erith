@@ -1,13 +1,13 @@
 // import Image from "next/image";
-import icon_1 from "@/assets/img/about/icon1.png";
-import icon_2 from "@/assets/img/about/icon2.png";
-import icon_3 from "@/assets/img/about/icon3.png";
+// import icon_1 from "@/assets/img/about/icon1.png";
+// import icon_2 from "@/assets/img/about/icon2.png";
+// import icon_3 from "@/assets/img/about/icon3.png";
 
-const tutorData = [
-  { id: 1, icon: icon_1, title: "Reliable & quality products", delay: ".3s" },
-  { id: 2, icon: icon_2, title: "In-house engineering team", delay: ".5s" },
-  { id: 3, icon: icon_3, title: "Cost efficient solutions", delay: ".7s" },
-];
+// const tutorData = [
+//   { id: 1, icon: icon_1, title: "Reliable & quality products", delay: ".3s" },
+//   { id: 2, icon: icon_2, title: "In-house engineering team", delay: ".5s" },
+//   { id: 3, icon: icon_3, title: "Cost efficient solutions", delay: ".7s" },
+// ];
 
 export default function TutorArea() {
   return (
