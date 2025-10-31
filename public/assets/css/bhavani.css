@@ -1,0 +1,134 @@
+.feature-area {
+  padding: 0 0 88px;
+  margin-top: -80px;
+}
+.feature-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.feature-sinble-single-box {
+  border-radius: 15px;
+  background-color:  rgba(255, 255, 255, 0.4);
+  border: 1px solid #e1e1e1;
+  text-align: center;
+  padding: 36px 0 32px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+
+.feature-sinble-single-box::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: url(/assets/images/feature6.png);
+  left: -17%;
+  top: -3%;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.3; /* Transparent - adjust between 0.1 to 0.5 */
+  pointer-events: none;
+}
+.feature-sinble-single-box:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  transition: 0.5s;
+  z-index: -1;
+  background: #BEBEBE;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  transform: perspective(500px) rotateX(-90deg);
+  opacity: 0;
+}
+
+.feature-sinble-single-box:hover:after {
+  transform: perspective(500px) rotateX(0deg);
+  opacity: 1;
+}
+
+.feature-icon {
+  width: 75px;
+  height: 75px;
+  border-radius: 38px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 2px solid #ffffff;
+  line-height: 70px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.feature-icon img {
+  transition: 0.5s;
+  filter: brightness(1) invert(0);
+}
+
+.feature-icon::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #000000;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.5s;
+  z-index: -1;
+}
+
+h3.feature-title {
+  font-size: 18px;
+  color: #050a1e;
+  font-weight: 600;
+  font-family: "Poppins";
+  margin: 0;
+  padding: 6px 0 0px;
+  transition: 0.5s;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+p.feature-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #050a1e;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin: 0;
+  transition: 0.5s;
+  position: relative;
+  z-index: 2;
+  text-align: start;
+  margin-left: 5%;
+}
+.feature-sinble-single-box:hover {
+  border: 1px solid #f4d100;
+}
+
+.feature-sinble-single-box:hover .feature-icon::before {
+  transform: scale(1);
+}
+
+.feature-sinble-single-box:hover .feature-icon img {
+  filter: brightness(0) invert(1);
+}
+
+.feature-sinble-single-box:hover h3.feature-title {
+  color: #fff;
+}
+
+.feature-sinble-single-box:hover p.feature-text {
+  color: #fff;
+}
