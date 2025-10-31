@@ -1,7 +1,7 @@
 import React from "react";
 import TeamSlider from "./slider/team-slider";
-import shape_underline from "@/assets/img/unlerline/team-2-svg-1.svg";
-import Image from "next/image";
+// import shape_underline from "@/assets/img/unlerline/team-2-svg-1.svg";
+// import Image from "next/image";
 import { NextArrowTwo, PrevArrowTwo } from "../svg";
 
 export default function TeamArea() {

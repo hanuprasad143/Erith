@@ -4,11 +4,11 @@ import thumb_1 from "@/assets/img/about/about-thumb1.png";
 import CounterItem from "../counter/counter-item";
 import Link from "next/link";
 
-const imgStyle: CSSProperties = {
-  height: "auto",
-  width: "100%",
-  objectFit: "cover",
-};
+// const imgStyle: CSSProperties = {
+//   height: "auto",
+//   width: "100%",
+//   objectFit: "cover",
+// };
 
 const experienceStyle: CSSProperties = {
   display: "inline-block",

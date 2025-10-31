@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { SearchSvg } from "../svg";
 import NavMenus from "./navbar/nav-menus";
-import logo from "@/assets/img/logo/erith-white.png";
+// import logo from "@/assets/img/logo/erith-white.png";
 import HeaderTopArea from "./header-top/header-top-area";
 import logo_black from "@/assets/img/logo/erith_global.png";
 import HeaderStickyWrapper from "./header-sticky-provider/header-sticky-wrapper";

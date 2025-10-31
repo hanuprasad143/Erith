@@ -6,7 +6,7 @@ import shape_underline from "@/assets/img/unlerline/testimonial-2-svg-1.svg";
 import quate_1 from "@/assets/img/testimonial/testimonial-shape-1.png";
 import quate_2 from "@/assets/img/testimonial/testimonial-shape-3.png";
 import { testimonial_two_data } from "@/data/testimonial-data";
-import shape_line from "@/assets/img/unlerline/event-1-svg-1.svg";
+// import shape_line from "@/assets/img/unlerline/event-1-svg-1.svg";
 
 // slider options
 const avt_slider_opt = {

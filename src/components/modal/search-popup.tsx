@@ -1,17 +1,17 @@
-import Image from "next/image";
-import { CloseThreeSvg, SearchSvg, StarThree } from "../svg";
-import { online_courses_data } from "@/data/course-data";
-import { formatPrice } from "@/lib/format-price";
-import Link from "next/link";
+// import Image from "next/image";
+// import { CloseThreeSvg, SearchSvg, StarThree } from "../svg";
+// import { online_courses_data } from "@/data/course-data";
+// import { formatPrice } from "@/lib/format-price";
+// import Link from "next/link";
 
-const top_programs = [...online_courses_data].slice(0, 4);
+// const top_programs = [...online_courses_data].slice(0, 4);
 
 type IProps = {
    isSearchOpen: boolean;
    onHide: () => void;
 }
 
-export default function SearchPopup({ isSearchOpen, onHide }: IProps) {
+export default function SearchPopup({  }: IProps) {
    return (
       <>
          {/* <div className={`tp-search-area ${isSearchOpen ? 'opened' : ''}`}>

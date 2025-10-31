@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import FooterSocial from "./footer-social";
 import logo from '@/assets/img/logo/logo-black-2.png'; // Dark logo for white background
-import erith_global from '@/assets/img/logo/erith_global.png'; // Colored logo for white bg
+// import erith_global from '@/assets/img/logo/erith_global.png'; // Colored logo for white bg
 import erith_global_white from '@/assets/img/logo/erith_global_white.png'; // White logo for dark bg
 
 // prop type 

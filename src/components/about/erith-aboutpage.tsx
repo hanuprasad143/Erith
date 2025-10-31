@@ -1,89 +1,89 @@
 import Image from "next/image";
-import { Location } from "../svg";
-import shape_1 from "@/assets/img/campus/campuses-shape-1.jpg";
-import shape_2 from "@/assets/img/campus/campuses-shape-2.jpg";
+// import { Location } from "../svg";
+// import shape_1 from "@/assets/img/campus/campuses-shape-1.jpg";
+// import shape_2 from "@/assets/img/campus/campuses-shape-2.jpg";
 import Link from "next/link";
-import mission_thumb_3 from "@/assets/img/our-mission/Gala_night_group_photo.jpg";
-import ContactForm from "../form/contact-form";
+// import mission_thumb_3 from "@/assets/img/our-mission/Gala_night_group_photo.jpg";
+// import ContactForm from "../form/contact-form";
 // nav items
-const navItems = [
-  {
-    id: "home-tab",
-    target: "#home",
-    label: "Abu Dhabi - BR",
-    ariaControls: "home",
-    selected: true,
-  },
-  {
-    id: "profile-tab",
-    target: "#profile",
-    label: "Head Office",
-    ariaControls: "profile",
-    selected: false,
-  },
-  {
-    id: "contact-tab",
-    target: "#contact",
-    label: "Sharjah - BR",
-    ariaControls: "contact",
-    selected: false,
-  },
-  {
-    id: "Moscow-tab",
-    target: "#Moscow",
-    label: "Ras Al Khaimah Manufacturing Unit",
-    ariaControls: "Moscow",
-    selected: false,
-  },
-  {
-    id: "Campus-tab",
-    target: "#Campus",
-    label: "India",
-    ariaControls: "Campus",
-    selected: false,
-  },
-];
+// const navItems = [
+//   {
+//     id: "home-tab",
+//     target: "#home",
+//     label: "Abu Dhabi - BR",
+//     ariaControls: "home",
+//     selected: true,
+//   },
+//   {
+//     id: "profile-tab",
+//     target: "#profile",
+//     label: "Head Office",
+//     ariaControls: "profile",
+//     selected: false,
+//   },
+//   {
+//     id: "contact-tab",
+//     target: "#contact",
+//     label: "Sharjah - BR",
+//     ariaControls: "contact",
+//     selected: false,
+//   },
+//   {
+//     id: "Moscow-tab",
+//     target: "#Moscow",
+//     label: "Ras Al Khaimah Manufacturing Unit",
+//     ariaControls: "Moscow",
+//     selected: false,
+//   },
+//   {
+//     id: "Campus-tab",
+//     target: "#Campus",
+//     label: "India",
+//     ariaControls: "Campus",
+//     selected: false,
+//   },
+// ];
 
 // tab content data
-const tabContentData = [
-  {
-    id: "home",
-    label: "home-tab",
-    imgSrc: "/assets/img/live/banner-erith-1.png",
-    location: "Office No. 3, Plot #84, Mussafah M40 Abu Dhabi",
-    isActive: true,
-  },
-  {
-    id: "profile",
-    label: "profile-tab",
-    imgSrc: "/assets/img/live/banner-erith-2.jpg",
-    location: "P O Box 117451 Office 801, Warsan Tower Barsha Heights Dubai",
-    isActive: false,
-  },
-  {
-    id: "contact",
-    label: "contact-tab",
-    imgSrc: "/assets/img/live/banner-erith-3.jpg",
-    location: "P5 ELOB, Office E-22F-20, Hamriyah Free Zone, Sharjah",
-    isActive: false,
-  },
-  {
-    id: "Moscow",
-    label: "Moscow-tab",
-    imgSrc: "/assets/img/live/banner-erith-4.jpg",
-    location:
-      "S04 – 5-12 Shed No. 04, Al Hamra Industrial Zone-FZRas Al Khaimah",
-    isActive: false,
-  },
-  {
-    id: "Campus",
-    label: "Campus-tab",
-    imgSrc: "/assets/img/live/banner-erith-5.jpg",
-    location:
-      "Old no. 76 New no. 120, Master Complex, Second Floor, Gopathi Narayanaswami Chetty Road, T. Nagar, Chennai, Tamil Nadu 600017.",
-    isActive: false,
-  },
-];
+// const tabContentData = [
+//   {
+//     id: "home",
+//     label: "home-tab",
+//     imgSrc: "/assets/img/live/banner-erith-1.png",
+//     location: "Office No. 3, Plot #84, Mussafah M40 Abu Dhabi",
+//     isActive: true,
+//   },
+//   {
+//     id: "profile",
+//     label: "profile-tab",
+//     imgSrc: "/assets/img/live/banner-erith-2.jpg",
+//     location: "P O Box 117451 Office 801, Warsan Tower Barsha Heights Dubai",
+//     isActive: false,
+//   },
+//   {
+//     id: "contact",
+//     label: "contact-tab",
+//     imgSrc: "/assets/img/live/banner-erith-3.jpg",
+//     location: "P5 ELOB, Office E-22F-20, Hamriyah Free Zone, Sharjah",
+//     isActive: false,
+//   },
+//   {
+//     id: "Moscow",
+//     label: "Moscow-tab",
+//     imgSrc: "/assets/img/live/banner-erith-4.jpg",
+//     location:
+//       "S04 – 5-12 Shed No. 04, Al Hamra Industrial Zone-FZRas Al Khaimah",
+//     isActive: false,
+//   },
+//   {
+//     id: "Campus",
+//     label: "Campus-tab",
+//     imgSrc: "/assets/img/live/banner-erith-5.jpg",
+//     location:
+//       "Old no. 76 New no. 120, Master Complex, Second Floor, Gopathi Narayanaswami Chetty Road, T. Nagar, Chennai, Tamil Nadu 600017.",
+//     isActive: false,
+//   },
+// ];
 
 // ✅ NEW COMPONENT — image on left, content on right
 function AboutErithInfo() {

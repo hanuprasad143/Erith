@@ -2,7 +2,7 @@ import React from "react";
 // import shape10 from "@/assets/img/shape/yellow_triangless.png";
 import Services1TabData from "@/assets/jsonData/services/Services1TabData.json";
 import SingleServices1 from "./SingleServices1";
-import Image from "next/image";
+// import Image from "next/image";
 
 const ServicesStyle1 = () => {
   return (

@@ -1,13 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import { RightArrowTwo, RightSmArrowTwo } from "../svg";
+import { RightArrowTwo,} from "../svg";
 
 // icons
 import ser_icon_1 from "@/assets/img/icon/service/icon1.png";
 import ser_icon_2 from "@/assets/img/icon/service/icon2.png";
 import ser_icon_3 from "@/assets/img/icon/service/icon3.png";
 import ser_icon_4 from "@/assets/img/icon/service/icon4.png";
-import ser_shape from "@/assets/img/shape/service/services-shape-1.png";
+// import ser_shape from "@/assets/img/shape/service/services-shape-1.png";
 
 // service data
 const service_data = [

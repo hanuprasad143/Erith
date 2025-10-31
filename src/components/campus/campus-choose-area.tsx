@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { DownArrowThree } from "../svg";
+// import Link from "next/link";
+// import { DownArrowThree } from "../svg";
 
 export default function CampusChooseArea() {
   return (

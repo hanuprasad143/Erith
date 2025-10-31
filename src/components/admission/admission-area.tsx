@@ -1,8 +1,8 @@
 import Image from "next/image";
 import overview_img_1 from "@/assets/img/course/image1.png";
 import overview_img_2 from "@/assets/img/course/image2.png";
-import { RightArrowSeven } from "../svg";
-import Link from "next/link";
+// import { RightArrowSeven } from "../svg";
+// import Link from "next/link";
 
 export default function AdmissionArea() {
   return (

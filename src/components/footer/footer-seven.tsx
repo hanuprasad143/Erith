@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Email } from "../svg";
 import FooterSocial from "./footer-social";
-import logo from "@/assets/img/logo/logo-black-2.png";
-import logo_white from "@/assets/img/logo/logo-white.png";
+// import logo from "@/assets/img/logo/logo-black-2.png";
+// import logo_white from "@/assets/img/logo/logo-white.png";
 import { footerLinks } from "@/data/footer-links";
 import erithglobal_black from "@/assets/img/logo/erith_global.png";
 

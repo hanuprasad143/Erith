@@ -1,16 +1,16 @@
 import Image from 'next/image';
-import { RightArrow, ShapeLine } from '../svg';
+// import { RightArrow, ShapeLine } from '../svg';
 
 // images
 import thumb_1 from '@/assets/img/about/about-thumb1.png';
-import thumb_2 from '@/assets/img/about/about-thumb-2.jpg';
-import shape_1 from '@/assets/img/about/about-shape-1.jpg';
-import shape_2 from '@/assets/img/about/about-shape-2.jpg';
+// import thumb_2 from '@/assets/img/about/about-thumb-2.jpg';
+// import shape_1 from '@/assets/img/about/about-shape-1.jpg';
+// import shape_2 from '@/assets/img/about/about-shape-2.jpg';
 import icon_1 from '@/assets/img/icon/about/about-icon11.png';
-import icon_2 from '@/assets/img/icon/about/about-icon-2.svg';
+// import icon_2 from '@/assets/img/icon/about/about-icon-2.svg';
 import { CSSProperties } from 'react';
 import CounterItem from '../counter/counter-item';
-import Link from 'next/link';
+// import Link from 'next/link';
 
 // list data 
 const about_lists = [

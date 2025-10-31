@@ -1,10 +1,10 @@
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
-import { RightSmArrow } from "@/components/svg";
+// import { RightSmArrow } from "@/components/svg";
 import { IPagesDropdown } from "@/types/menu-d-t";
-import menu_shape_1 from "@/assets/img/shape/menu-shape-1.png";
-import menu_shape_2 from "@/assets/img/shape/menu-shape-2.png";
+// import menu_shape_1 from "@/assets/img/shape/menu-shape-1.png";
+// import menu_shape_2 from "@/assets/img/shape/menu-shape-2.png";
 
 type IProps = {
   pages_dropdown: IPagesDropdown[];

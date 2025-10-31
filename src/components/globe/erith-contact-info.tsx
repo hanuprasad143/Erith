@@ -1,4 +1,4 @@
-import { EmailThree, LocationFour, TelSvgTwo, HomeSvg } from "../svg";
+import { LocationFour, HomeSvg } from "../svg";
 import Link from "next/link";
 
 const contactInfoData = [

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Location } from "../svg";
-import shape_1 from "@/assets/img/campus/campuses-shape-1.jpg";
-import shape_2 from "@/assets/img/campus/campuses-shape-2.jpg";
+// import shape_1 from "@/assets/img/campus/campuses-shape-1.jpg";
+// import shape_2 from "@/assets/img/campus/campuses-shape-2.jpg";
 import Link from "next/link";
 
 // nav items

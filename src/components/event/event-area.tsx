@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { RightArrow, RightArrowThree } from "../svg";
-import shape_line from "@/assets/img/unlerline/event-1-svg-1.svg";
+// import shape_line from "@/assets/img/unlerline/event-1-svg-1.svg";
 import { university_classic_event_data } from "@/data/event-data";
 import HoverImgItem from "./hover-img-item";
 import img1 from "@/assets/img/event/fire-protection.jpg";

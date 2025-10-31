@@ -1,6 +1,6 @@
 import ContactForm from "../form/contact-form";
-import Link from "next/link";
-import { HomeSvg } from "../svg";
+// import Link from "next/link";
+// import { HomeSvg } from "../svg";
 
 type IProps = {
   title: string;
@@ -8,7 +8,7 @@ type IProps = {
   admission?: boolean;
 };
 
-export default function ContactArea({ title, subtitle, admission }: IProps) {
+export default function ContactArea({admission }: IProps) {
   return (
     <>
       {/* ===== Banner Section ===== */}

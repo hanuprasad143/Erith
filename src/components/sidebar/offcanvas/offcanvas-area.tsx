@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import logo from '@/assets/img/logo/erith_global.png';
-import { BehanceSvg, CloseThreeSvg, DribbleSvg, InstagramSvg, YoutubeTwoSvg } from "@/components/svg";
+import {CloseThreeSvg} from "@/components/svg";
 import OffcanvasMenu from "./offcanvas-menu";
 import OffcanvasMenuTwo from "./offcanvas-menu-2";
 import FooterSocial from "@/components/footer/footer-social";

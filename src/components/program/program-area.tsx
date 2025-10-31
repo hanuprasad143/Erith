@@ -1,8 +1,8 @@
-import Link from "next/link";
-import Image from "next/image";
+// import Link from "next/link";
+// import Image from "next/image";
 import ProgramSlider from "./slider/program-slider";
-import shape_line from "@/assets/img/unlerline/program-1-svg-1.svg";
-import { RightSmArrowThree } from "../svg";
+// import shape_line from "@/assets/img/unlerline/program-1-svg-1.svg";
+// import { RightSmArrowThree } from "../svg";
 
 export default function ProgramArea() {
   return (

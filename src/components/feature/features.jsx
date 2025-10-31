@@ -1,5 +1,5 @@
 import data from "../../Data/feature.json";
-import HeroSection from "@/components/slider/Heroslider";
+// import HeroSection from "@/components/slider/Heroslider";
 
 const Features = () => {
   return (

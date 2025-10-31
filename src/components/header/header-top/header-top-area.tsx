@@ -1,7 +1,7 @@
 import React from "react";
-import Image from "next/image";
-import calling from "@/assets/img/icon/calling.svg";
-import HeaderLanguage from "./header-language";
+// import Image from "next/image";
+// import calling from "@/assets/img/icon/calling.svg";
+// import HeaderLanguage from "./header-language";
 import Link from "next/link";
 import { FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
 

@@ -1,11 +1,11 @@
 "use client";
-import Link from "next/link";
+// import Link from "next/link";
 import React from "react";
 import { EffectFade } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { SwiperOptions } from "swiper/types";
-import { RightArrow } from "../svg";
-import HeroSection from "@/components/slider/Heroslider";
+// import { RightArrow } from "../svg";
+// import HeroSection from "@/components/slider/Heroslider";
 
 const heroSliderData = [
   {
