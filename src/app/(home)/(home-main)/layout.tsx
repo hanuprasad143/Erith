@@ -1,11 +1,11 @@
 import React from "react";
 import HeaderOne from "@/components/header/header-one";
-import FooterOne from "@/components/footer/footer-one";
-import FooterTwo from "@/components/footer/footer-two";
-import FooterThree from "@/components/footer/footer-three";
-import FooterFour from "@/components/footer/footer-four";
-import FooterFive from "@/components/footer/footer-five";
-import FooterSix from "@/components/footer/footer-six";
+// import FooterOne from "@/components/footer/footer-one";
+// import FooterTwo from "@/components/footer/footer-two";
+// import FooterThree from "@/components/footer/footer-three";
+// import FooterFour from "@/components/footer/footer-four";
+// import FooterFive from "@/components/footer/footer-five";
+// import FooterSix from "@/components/footer/footer-six";
 import FooterSeven from "@/components/footer/footer-seven";   
 import BackToTop from "@/components/back-to-top";
 import MainProvider from "@/components/provider/main-provider";
