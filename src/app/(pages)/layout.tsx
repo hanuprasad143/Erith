@@ -1,10 +1,10 @@
 import MainProvider from "@/components/provider/main-provider";
-import HeaderTwo from "@/components/header/header-two";
+// import HeaderTwo from "@/components/header/header-two";
 import HeaderSeven from "@/components/header/header-seven";
 import BackToTop from "@/components/back-to-top";
 import FooterSeven from "@/components/footer/footer-seven";
-import FooterOne from "@/components/footer/footer-one";
-import FooterTwo from "@/components/footer/footer-two";
+// import FooterOne from "@/components/footer/footer-one";
+// import FooterTwo from "@/components/footer/footer-two";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
