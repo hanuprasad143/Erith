@@ -10,7 +10,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <MainProvider>
       {/* header area start */}
-      <HeaderSeven inner={true} />
+      <HeaderSeven/>
       {/* header area end */}
 
       {/* main content */}
@@ -20,7 +20,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       {/* footer area start */}
       {/* <FooterTwo/> */}
       {/* <FooterOne inner={true} /> */}
-      <FooterSeven inner={true} />
+      <FooterSeven/>
       {/* footer area end */}
 
       {/* back to top */}
