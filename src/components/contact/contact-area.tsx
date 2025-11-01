@@ -8,7 +8,7 @@ type IProps = {
   admission?: boolean;
 };
 
-export default function ContactArea({title,subtitle,admission }: IProps) {
+export default function ContactArea({ title, subtitle, admission }: IProps) {
   return (
     <>
       {/* ===== Banner Section ===== */}
@@ -28,6 +28,8 @@ export default function ContactArea({title,subtitle,admission }: IProps) {
                   </Link>
                 </span> */}
                   {admission && <span className="white">Admission</span>}
+                  {title && <h3 className="tp-breadcrumb__title color"></h3>}
+                  {subtitle && <span className="white"></span>}
                   <h3 className="tp-breadcrumb__title color">Get In Touch</h3>
                   <span className="white">
                     We Are Here To Answer Any Questions You May Have
