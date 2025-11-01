@@ -8,7 +8,7 @@ type IProps = {
   admission?: boolean;
 };
 
-export default function ContactArea({admission }: IProps) {
+export default function ContactArea({title,subtitle,admission }: IProps) {
   return (
     <>
       {/* ===== Banner Section ===== */}
