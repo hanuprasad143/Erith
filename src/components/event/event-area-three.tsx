@@ -37,7 +37,7 @@ export default function EventAreaThree() {
                         </div>
                         <div className="tp-event-4-box">
                            <div className="tp-event-4-content">
-                              <p>{`${item.date.day} ${item.date.month}, ${item.date.year}`}</p>
+                              {/* <p>{`${item.date.day} ${item.date.month}, ${item.date.year}`}</p> */}
                               <h4 className="tp-event-4-title">
                                  <Link href={`/event-details/${item.id}`}>{item.title}</Link>
                               </h4>
