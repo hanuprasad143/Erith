@@ -10,7 +10,12 @@ import HeaderStickyWrapper from "./header-sticky-provider/header-sticky-wrapper"
 import SearchButton from "./button/search-button";
 import OffcanvasButton from "./button/offcanvas-btn";
 
-export default function HeaderOne() {
+type HeaderSevenProps = {
+  inner?: boolean;
+  transparent?: boolean;
+};
+
+export default function HeaderSeven({}: HeaderSevenProps) {
   return (
     <>
       <header className="header-area tp-header-white p-relative">

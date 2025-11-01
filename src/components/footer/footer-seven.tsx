@@ -12,6 +12,7 @@ type Props = {
   dashboard_footer?: boolean;
   bgClr?: string;
   style_2?: boolean;
+  inner?: boolean;
 };
 
 export default function FooterSeven({

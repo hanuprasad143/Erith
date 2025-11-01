@@ -21,7 +21,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       {/* footer area end */}
 
       {/* back to top */}
-      <BackToTop/>
+      <BackToTop />
       {/* back to top */}
     </MainProvider>
   );
