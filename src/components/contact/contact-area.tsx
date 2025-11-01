@@ -3,12 +3,12 @@ import ContactForm from "../form/contact-form";
 // import { HomeSvg } from "../svg";
 
 type IProps = {
-  title: string;
-  subtitle: string;
+  title?: string;
+  subtitle?: string;
   admission?: boolean;
 };
 
-export default function ContactArea({ title,subtitle,admission }: IProps) {
+export default function ContactArea({ title, subtitle, admission }: IProps) {
   return (
     <>
       {/* ===== Banner Section ===== */}
